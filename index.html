@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- Banner -->
+
+  <div class="flex h-10 w-full bg-orange-500 text-white font-semibold font-sans justify-center items-center">
+    <p class="text-lg">&#x1F553; Service Hours: Monday-Sunday (11AM-10PM)</p>
+  </div>
+
+  <!-- header -->
+
+  <header class="pb-28 bg-gray-800 border-b-2 border-orange-500">
+    <!-- navbar -->
+
+    <nav class="pb-24 pt-14 flex flex-col md:flex-row justify-around items-center bg-gray-800">
+      <img class="w-24 mb-4 md:mb-0" src="images/logo.png" alt="Logo" />
+      <ul class="flex flex-col md:flex-row justify-center items-center text-white">
+        <li class="mx-4 hover:text-orange-500"><a href="index.html">Home</a></li>
+        <li class="mx-4 hover:text-orange-500"><a href="Contact Us.html">Contact Us</a></li>
+        <li class="mx-4 hover:text-orange-500"><a href="About Us.html">About Us</a></li>
+        
+      </ul>
+      <button
+        class="bg-blue-800 text-white px-4 py-2 rounded border-2 border-blue-800 mt-4 md:mt-0 hover:text-orange-500 hover:bg-gray-800 hover:border-orange-500">
+        GET AN APPOINTMENT
+      </button>
+    </nav>
+
+    <!-- header content -->
+
+    <div id="parent" class="flex flex-col md:flex-row mt-10 items-center md:items-start">
+      <div id="content" class="text-center md:text-left md:mr-10">
+        <h1 class="text-white font-bold text-4xl md:text-5xl font-serif m-4">
+          <span class="text-orange-500">"</span>Versatile & Holistic
+          Solutions<span class="text-orange-500">"</span>
+        </h1>
+        <hr class="border-t-4 border-orange-500 w-16 mx-auto md:mx-4" />
+        <p class="text-white text-lg md:text-xl m-4">
+          Welcome to Mechanic4U, your ultimate destination for all
+          <br />automotive repair and services. Our online mechanic workshop
+          <br />offers convenient and dependable solutions delivered
+          <br />directly to your doorstep.
+        </p>
+      </div>
+      <div id="img" class="flex justify-center md:ml-10">
+        <img class="mx-28 w-72 md:w-auto animate-pulse" src="images/car.png" alt="Car" />
+      </div>
+    </div>
+    <div class="absolute left-1/2 transform -translate-x-1/2 mt-10 md:mt-16">
+      <img class="w-64 md:w-80" src="images/Background-42.png" alt="Background" />
+    </div>
+  </header>
+  <!-- quote -->
+  <p class="text-neutral-600 font-semibold text-center mt-32"><i><span
+        class="text-2xl text-orange-500 font-bold">"</span>Choosing us means entrusting your vehicle to a team dedicated
+      to unparalleled expertise, quality service, and unwavering customer satisfaction. Our commitment to excellence
+      isn't just a promise—it's a standard we uphold with every repair and maintenance service we provide. Experience
+      the peace of mind that comes with transparent pricing, comprehensive services, and a state-of-the-art facility,
+      all delivered with efficiency and reliability. Let us be your trusted partner in ensuring your vehicle's peak
+      performance and longevity.Because with us, it's not just about fixing cars—it's about building lasting
+      relationships based on trust and quality.<span class="text-2xl text-orange-500 font-bold">"</span></i></p>
+
+  <!-- service sections -->
+
+  <div class="flex flex-col md:flex-row justify-center items-center mt-32 space-y-4 md:space-y-0 md:space-x-4">
+    <!-- section 1 -->
+    <div class="rounded  border-dashed bg-gray-100 h-64 w-80 p-4 flex flex-col items-center text-black drop-shadow-2xl">
+      <img src="images/Services/outgoing (1).png" alt="Appointment" class="h-12 w-12 mt-4" />
+      <h1 class="text-center font-serif text-xl font-bold mt-4">
+        Make an appointment
+      </h1>
+      <p class="text-center mt-4">
+        Choose a preferred date and time for the appointment that suits you
+        best.
+      </p>
+      <button class="bg-gray-100 text-black px-4 pt-6 rounded mt-4 md:mt-0 hover:text-orange-500 font-bold">
+        Book an appointment
+      </button>
+    </div>
+    <!-- section 2 -->
+    <div class="rounded  border-dashed bg-gray-100 h-64 w-80 p-4 flex flex-col items-center text-black drop-shadow-2xl">
+      <img src="images/Services/portfolio.png" alt="Working Hours" class="h-12 w-12 mt-4" />
+      <h1 class="text-center font-serif text-xl font-bold mt-4">
+        Working Hours
+      </h1>
+      <ul class="text-center mt-4">
+        <li>11:00 AM - 10.00 PM</li>
+        <li>Monday - Saturday</li>
+      </ul>
+    </div>
+    <!-- section 3  -->
+    <div class="rounded  border-dashed bg-gray-100 h-64 w-80 p-4 flex flex-col items-center text-black drop-shadow-2xl">
+      <img src="images/Services/person.png" alt="Call Now" class="h-14 w-14 mt-4" />
+      <h1 class="text-center font-serif text-xl font-bold mt-4">Call Now</h1>
+      <p class="text-2xl text-center mt-4">+92 318 1144183</p>
+      <button class="bg-gray-100 text-black px-4 pt-6 rounded  mt-4 md:mt-0 hover:text-orange-500 font-bold">
+        Call Us Now
+      </button>
+    </div>
+  </div>
+  <!-- Package -->
+  <div class="flex flex-col items-center">
+    <h1 class="font-bold font-serif text-black text-3xl lg:text-5xl mt-16 lg:mt-32">Our Packages</h1>
+  </div>
+  <hr class="border-2 border-orange-500 w-16 mx-auto mt-2">
+  <div class="mt-16 lg:mt-32 grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <!-- Basic Package -->
+    <div class="rounded-lg p-6 border-2 border-blue-800 bg-blue-800 m-4 drop-shadow-2xl">
+      <img src="images/Packages/hybrid.png" alt="Hybrid Package" class="h-32 w-56 my-6 mx-auto">
+      <h2 class="text-3xl lg:text-5xl font-bold text-center mb-4 text-white font-serif">Hybrid Package</h2>
+      <ul class="list-disc list-inside pt-6 lg:pt-12 text-white text-lg">
+        <li>Diagnostic check</li>
+        <li>Oil and filter change</li>
+        <li>Tire rotation and inspection</li>
+        <li>Brake inspection and adjustment</li>
+        <li>Fluid top-up</li>
+      </ul>
+      <div class="text-center mt-6 bg-yellow-500">
+        <span class="text-xl font-bold ">$99</span>
+      </div>
+      <div class="text-center mt-4">
+        <button class="text-white font-bold py-2 px-4 rounded hover:text-orange-500">Book an appointment</button>
+      </div>
+    </div>
+
+    <!-- Standard Package -->
+    <div class="rounded-lg p-6 border-2 border-blue-800 bg-blue-800 m-4 drop-shadow-2xl">
+      <img src="images/Packages/supra.png" alt="Supra Package" class="h-32 w-56 my-6 mx-auto">
+      <h2 class="text-3xl lg:text-5xl font-bold text-center mb-4 text-white font-serif">Supra Package</h2>
+      <ul class="list-disc list-inside pt-6 lg:pt-12 text-white text-lg">
+        <li>Includes Basic Package</li>
+        <li>Full brake system service</li>
+        <li>Transmission fluid change</li>
+        <li>Exhaust system inspection</li>
+        <li>Suspension and alignment check</li>
+      </ul>
+      <div class="text-center mt-6 bg-yellow-500">
+        <span class="text-xl font-bold">$199</span>
+      </div>
+      <div class="text-center mt-4">
+        <button class="text-white font-bold py-2 px-4 rounded hover:text-orange-500">Book an appointment</button>
+      </div>
+    </div>
+
+    <!-- Premium Package -->
+    <div class="rounded-lg p-6 border-2 border-blue-800 bg-blue-800 m-4 drop-shadow-2xl">
+      <img src="images/Packages/turbo.png" alt="Turbo Package" class="h-32 w-56 my-6 mx-auto">
+      <h2 class="text-3xl lg:text-5xl font-bold text-center mb-4 text-white font-serif">Turbo Package</h2>
+      <ul class="list-disc list-inside pt-6 lg:pt-12 text-white text-lg">
+        <li>Includes Standard Package</li>
+        <li>Turbocharger inspection and service</li>
+        <li>Complete engine overhaul</li>
+        <li>High-performance brake upgrade</li>
+        <li>Detailed cleaning and detailing</li>
+      </ul>
+      <div class="text-center mt-6 bg-yellow-500">
+        <span class="text-xl font-bold">$299</span>
+      </div>
+      <div class="text-center mt-4">
+        <button class="text-white font-bold py-2 px-4 rounded hover:text-orange-500">Book an appointment</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- what we do -->
+
+  <div class="grid grid-cols-2">
+    <div class="flex mt-4 ml-16 flex-col">
+      <h1 class="font-bold font-serif text-black text-3xl lg:text-5xl mb-4 lg:mt-32 inline-block">What we do?</h1>
+      <hr class="border-2 border-orange-500 w-16 mb-4">
+      <p class="text-neutral-600 font-bold text-lg font-sans mb-4">More Than 10 Years of Experience</p>
+      <p class="text-neutral-600 font-sans">At Mechanic4U, we strive to provide a convenient and hassle-free experience
+        for all your automotive needs. We believe in making the process as simple as possible, saving you time and
+        effort. Our user-friendly website and mobile app allow you to book a mechanic in just a few clicks, right from
+        the comfort of your own home or office.</p>
+    </div>
+    <div class="flex justify-center mt-24 ">
+      <img src="images/kit.png" alt="" class="h-80 w-96">
+    </div>
+  </div>
+  <div class="grid grid-cols-3 grid-rows-2 mt-24 mx-12 bg-gray-100">
+    <div class="h-96 w-96 p-4">
+      <img src="images/Service 2/setting-icon.png" alt="" class="h-12 w-12">
+      <h2 class="text-black text-2xl font-bold font-sans mt-4">Auto Maintainence<br>Service</h2>
+      <p class="text-neutral-600 font-sans mt-4">Is your engine showing signs of wear and tear? Experiencing decreased
+        performance, excessive oil consumption, or unusual noises? Our auto maintenance service is here to address these
+        issues and bring your engine back to life.</p>
+    </div>
+
+    <div class="h-96 w-96 p-4"><img src="images/Service 2/brakes.png" alt="" class="h-12 w-12">
+      <h2 class="text-black text-2xl font-bold font-sans mt-4">Brake Repair Pads & <br>Rotors</h2>
+      <p class="text-neutral-600 font-sans mt-4">Our car service specializes in expert brake repair, ensuring your
+        vehicle's safety with top-quality pads and rotors. We offer quick, reliable installations by certified
+        technicians. Enjoy peace of mind with our affordable, high-performance solutions..</p>
+    </div>
+    <div class="h-96 w-96 p-4">
+      <img src="images/Service 2/suspension-removebg-preview.png" alt="" class="h-12 w-16">
+      <h2 class="text-black text-2xl font-bold font-sans mt-4">Shocks, Struts<br>Replacement</h2>
+      <p class="text-neutral-600 font-sans mt-4">We specialize in suspension diagnostics and repairs, carefully
+        inspecting each component to identify any worn-out or damaged parts. By using high-quality replacement parts
+        that meet or exceed manufacturer specifications, we ensure the longevity and reliability of your suspension
+        system.</p>
+    </div>
+    <div class="h-96 w-96 p-4"><img src="images/Service 2/brd.png" alt="" class="h-12 w-16">
+      <h2 class="text-black text-2xl font-bold font-sans mt-4">System Diagnosis & <br>Repair</h2>
+      <p class="text-neutral-600 font-sans mt-4">Our technicians analyze the data to identify the specific issue and its
+        severity. We provide you with a clear diagnosis and recommendations for necessary repairs or maintenance.</p>
+    </div>
+    <div class="h-96 w-96 p-4"><img src="images/Service 2/CAR-AC-REPAIR-png-2.png" alt="" class="h-12 w-12">
+      <h2 class="text-black text-2xl font-bold font-sans mt-4">Air Conditioning <br>Services</h2>
+      <p class="text-neutral-600 font-sans mt-4">Beat the heat with our air conditioner service. From refrigerant
+        recharges to cleaning and repairs, we've got your AC needs covered. Our skilled technicians are here to ensure
+        your AC is in top shape.</p>
+    </div>
+    <div class="h-96 w-96 p-4"><img src="images/Service 2/wrapping.png" alt="" class="h-12 w-12">
+      <h2 class="text-black text-2xl font-bold font-sans mt-4">PPF, Wrapping & <br>Detailing</h2>
+      <p class="text-neutral-600 font-sans mt-4">Our PPF service provides an invisible shield against scratches, rock
+        chips, and other road debris. We offer a wide range of colors, finishes, and textures to choose from, allowing
+        you to create a customized and unique look.</p>
+    </div>
+  </div>
+
+  <!-- next -->
+
+  <div
+    style="background-image: url(images/2.jpg);height: 700px; background-size: cover;  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);"
+    class=" w-full ">
+    <div class="flex mt-4 ml-16 flex-col">
+      <h1 class="font-bold font-serif text-white text-3xl lg:text-5xl mb-4 lg:mt-32 inline-block">Why Choose Us?
+      </h1>
+      <hr class="border-2 border-orange-500 w-16 mb-4">
+
+      <h1 class="text-white text-2xl font-bold  mt-4">Expertise and Experience</h1>
+      <p class="text-white mt-4">With years of experience in the automotive repair industry, our team of certified
+        technicians is equipped with the knowledge and skills to handle any car repair or maintenance issue. We stay
+        updated with the latest technology and repair techniques to ensure your vehicle receives the best care possible.
+      </p>
+      <h1 class="text-white text-2xl font-bold mt-4">Quality Service
+      </h1>
+      <p class="text-white mt-4">We prioritize quality in every aspect of our service. From the parts we use to the
+        attention to detail in our work, we strive for excellence. Our commitment to quality ensures that your vehicle
+        is safe, reliable, and performs at its best.</p>
+      <h1 class="text-white text-2xl font-bold mt-4">Customer Satisfaction
+
+      </h1>
+      <p class="text-white mt-4">Our customers are at the heart of everything we do. We take pride in our outstanding
+        customer service, ensuring that every client receives personalized attention and clear communication throughout
+        the repair process. Your satisfaction is our top priority.</p>
+      <h1 class="text-white text-2xl font-bold mt-4">State-of-the-Art Facility
+
+      </h1>
+      <p class="text-white mt-4">Our workshop is equipped with the latest diagnostic and repair tools, allowing us to
+        efficiently and accurately service your vehicle. Our state-of-the-art facility ensures that your car is in a
+        safe and clean environment.</p>
+
+    </div>
+    <!-- Testimonial -->
+    <div class="flex mt-2 ml-16 flex-col mb-12">
+      <h1 class="font-bold font-serif text-black text-3xl lg:text-5xl mb-4 lg:mt-32 inline-block">Our Testimonials
+      </h1>
+      <hr class="border-2 border-orange-500 w-16 mb-4">
+    </div>
+    <!-- sections -->
+
+    <div class="flex flex-col md:flex-row justify-center items-center mt-32 space-y-4 md:space-y-0 md:space-x-4">
+      <!-- section 1 -->
+      <div
+        class="rounded  border-dashed bg-gray-100 h-96 w-80 p-4 flex flex-col items-center text-black drop-shadow-2xl ">
+        <img src="images/Testimonial/p1 (1).jpg" alt="Appointment" class="h-16 w-18 my-4" />
+        <h1 class="text-center font-serif text-xl font-bold mt-4">
+          Jane Smith
+        </h1>
+        <p class="text-center mt-4">
+          <i>"I couldn't be happier with the service I received from Mechanic4U. They came to my house, saving me the
+            hassle of driving to a workshop. The mechanic was professional and efficient, and my car is running better
+            than ever. The convenience and quality of their work are unmatched!"</i>
+        </p>
+      </div>
+      <!-- section 2 -->
+      <div
+        class="rounded  border-dashed bg-gray-100 h-96 w-80 p-4 flex flex-col items-center text-black drop-shadow-2xl ">
+        <img src="images/Testimonial/p1 (2).jpg" alt="Working Hours" class="h-16 w-18 my-4" />
+        <h1 class="text-center font-serif text-xl font-bold mt-4">
+          John Doe
+        </h1>
+        <p class="text-center mt-4">
+          <i>"Mechanic4U provided exceptional service! My car had been making a strange noise for weeks, and their team
+            quickly diagnosed and fixed the issue. The transparent pricing and friendly staff made the whole experience
+            stress-free. Highly recommend their services to anyone in need of reliable car repairs!"</i>
+        </p>
+      </div>
+      <!-- section 3  -->
+      <div
+        class="rounded  border-dashed bg-gray-100 h-96 w-80 p-4 flex flex-col items-center text-black shadow-md	shadow-inherit drop-shadow-2xl ">
+        <img src="images/Testimonial/p1 (3).jpg" alt="Call Now" class="h-16 w-18 my-4" />
+        <h1 class="text-center font-serif text-xl font-bold mt-4">Michael Johnson</h1>
+        <p class=" text-center mt-4"><i>"Mechanic4U has been a lifesaver! Their online booking system is so easy to use,
+            and their team is always punctual and thorough. I've used their services for everything from routine
+            maintenance to major repairs, and they've never let me down. Trustworthy, skilled, and affordable - what
+            more could you ask for?"</i></p>
+
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="mt-72 bg-gray-800 pb-12">
+      <div class="grid grid-cols-4">
+        <div>
+          <img src="images/logo.png" alt="" class="w-36 m-10 ">
+        </div>
+        <div>
+          <h1 class="text-white text-lg font-bold my-10">Services</h1>
+          <ul>
+            <li class="list-disc list-inside  text-white text-base">Engine Tuning/Oil Chang</li>
+            <li class="list-disc list-inside  text-white text-base">Engine Overhaul</li>
+            <li class="list-disc list-inside  text-white text-base">Suspension Overhaul</li>
+            <li class="list-disc list-inside  text-white text-base">Detailing</li>
+            <li class="list-disc list-inside  text-white text-base">Car Wrap & PPF</li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="text-white text-lg font-bold my-10">Services Hours</h1>
+          <ul>
+            <li class="list-disc list-inside  text-white text-base">Monday 11:00am - 10:00pm</li>
+            <li class="list-disc list-inside  text-white text-base">Tuesday 11:00am - 10:00pm</li>
+            <li class="list-disc list-inside  text-white text-base">Wednesday 11:00am - 10:00pm</li>
+            <li class="list-disc list-inside  text-white text-base">Thursday 11:00am - 10:00pm</li>
+            <li class="list-disc list-inside  text-white text-base">Friday - OFF</li>
+            <li class="list-disc list-inside  text-white text-base">Saturday 11:00am - 10:00pm</li>
+            <li class="list-disc list-inside  text-white text-base">Sunday 11:00am - 10:00pm</li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="text-white text-lg font-bold my-10">Contact Us</h1>
+
+          <ul>
+            <li class="list-inside  text-white text-base">&#9993;example@example.com</li>
+            <li class="list-inside  text-white text-base">&#9742; +1234567890</li>
+            <li class="list-inside  text-white text-base">&#128205;123 Main St,Anytown, USA</li>
+            <br>
+            <li class="list-inside  text-white text-base">&#128172; Send us a message <input type="text" placeholder="Place your text here!"></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <copyright>
+        <div style="background-color: #1e293b;" class="border-t-2 border-dotted	 border-orange-500 h-10 flex items-center justify-center" >
+          <p  class="text-center text-white">© 2024 Mechanic4U. All rights reserved | 1234 Car Repair Ave, Auto City, AC 12345 | Designed and Developed By <b>Talha Sheikh</b></p>
+        </div>
+    </copyright>
+
+
+
+</body>
+
+</html>
